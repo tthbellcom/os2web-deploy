@@ -4,7 +4,15 @@ core = 7.x
 ;; Base of the main make file
 includes[base] = "os2web.core.make"
 
+;; Ballerup Kommune specific stuff
+projects[ballerup][type] = "module"
+projects[ballerup][download][type] = "git"
+projects[ballerup][download][branch] = "master"
+projects[ballerup][download][url] = "git://github.com/bellcom/ballerup_os2web.git"
+
 ;; OS2Web projects:
+
+
 
 ; OS2Web base panels
 projects[os2web_base_panels][type] = "module"
@@ -33,6 +41,20 @@ projects[os2web_acadre_esdh][download][type] = "git"
 ; projects[os2web_acadre_esdh][download][tag] = "1.10"
 projects[os2web_acadre_esdh][download][branch] = "master"
 projects[os2web_acadre_esdh][download][url] = "https://github.com/OS2web/os2web_acadre_esdh.git"
+
+; OS2Web meetings
+; edoc
+projects[os2web_edoc_esdh][type] = "module"
+projects[os2web_edoc_esdh][download][type] = "git"
+projects[os2web_edoc_esdh][download][branch] = "develop"
+projects[os2web_edoc_esdh][download][url] = "git://github.com/OS2web/os2web_edoc_esdh.git"
+
+; sbsys
+projects[os2web_sbsys_esdh][type] = "module"
+projects[os2web_sbsys_esdh][download][type] = "git"
+projects[os2web_sbsys_esdh][download][branch] = "develop"
+projects[os2web_sbsys_esdh][download][url] = "git://github.com/OS2web/os2web_sbsys_esdh.git"
+
 
 ; OS2Web CP service
 projects[os2web_cp_service][type] = "module"

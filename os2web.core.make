@@ -147,6 +147,9 @@ projects[cookiecontrol][download][type] = "git"
 projects[cookiecontrol][download][branch] = "7.x-1.6"
 projects[cookiecontrol][patch][read_more_DK] = "patches/cookiecontrol-read_more_DK.patch"
 
+projects[varnish][subdir] = "contrib"
+projects[varnish][version] = "1.0-beta1"
+
 projects[views][subdir] = "contrib"
 projects[views][version] = "3.7"
 
