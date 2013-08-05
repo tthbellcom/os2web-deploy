@@ -32,7 +32,7 @@ projects[os2web_iframe_field][download][url] = "https://github.com/OS2web/os2web
 projects[os2web_esdh_provider][type] = "module"
 projects[os2web_esdh_provider][download][type] = "git"
 ; projects[os2web_esdh_provider][download][tag] = "1.10"
-projects[os2web_esdh_provider][download][branch] = "master"
+projects[os2web_esdh_provider][download][branch] = "develop"
 projects[os2web_esdh_provider][download][url] = "https://github.com/OS2web/os2web_esdh_provider.git"
 
 ; OS2Web acadre_esdh integration
