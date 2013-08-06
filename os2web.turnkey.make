@@ -10,6 +10,13 @@ projects[ballerup][download][type] = "git"
 projects[ballerup][download][branch] = "master"
 projects[ballerup][download][url] = "git://github.com/bellcom/ballerup_os2web.git"
 
+; Ballerup Theme
+projects[os2web_core_theme][type] = "theme"
+projects[os2web_core_theme][download][type] = "git"
+projects[os2web_core_theme][download][branch] = "master"
+projects[os2web_core_theme][download][url] = "https://github.com/bellcom/ballerup_theme.git"
+
+
 ;; OS2Web projects:
 
 
